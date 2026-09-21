@@ -162,15 +162,38 @@ h4 {
 } 
 }
 
-
-
+/* ================= */
+/* about  */
+/* =============  */
+.section {
+     min-height : 100vh;
+    padding-top : calc(var(--navbar-height) + 2rem);
+    .section-title {
+        text-align : center;
+        margin-bottom : 2rem;
+        h2 {
+            text-transform : uppercase;
+            color : var(--clr-primary-8);
+        }
+        span {
+            color : var(--clr-primary-5);
+            margin-left : 0.75rem;  
+        }
+    }
+}
+/* ================  */
+/* section center for layout  */
+/* ===============  */
+.section-center {
+    display : grid;
+    grid-template-columns : 1fr;
+    gap : 2rem;
+}
 /* ============ */
 /* mideium screen  */
 /* ================  */
 @media (min-width: 800px) {
-    .navbar {
-        background-color : green;
-    }
+   
     body {
         font-size : 1rem;
     }
@@ -194,9 +217,7 @@ h4 {
 /* mobile screen  */
 /* ==============  */
 @media (max-width : 991px) {
-    .navbar {
-        background-color : red;
-    }
+   
     /* # add transition later */
 .mobile-menu-items.active {
     display : block;
@@ -235,9 +256,7 @@ h4 {
 /* large screen  */
 /* =============  */
 @media (min-width : 992px) {
-    .navbar {
-        background-color : blue;
-    }
+   
 .navbar-flex {
     justify-content : space-between;
     .main-menu {
@@ -271,6 +290,12 @@ display : none;
 .hero {
     background : linear-gradient(var(--clr-grey-6), var(--clr-grey-7)), url(../images/Beach_Theme.png) center/cover no-repeat;
     min-height : 100vh;
+}
+
+.section-center {
+    display : grid;
+    grid-template-columns : 1fr 1fr;
+    gap : 2rem;
 }
 
 }
