@@ -1,0 +1,53 @@
+.box {
+    width : 200px;
+    height : 200px;
+    background : lightblue;
+    border : 1px solid black;
+    margin : 10px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+.box-1 {
+    /* default position static, normal flow */
+    position : static;
+    /* offset :no effect */
+    left : 30px; 
+}
+/* normal flow, same as static */
+.box-2 {
+    position : relative;
+    /* offset : inital position relative to final position*/
+    left : 30px;
+    top : 20px;
+}
+.box-3 {
+    /* out of normal flow, position at z-index */
+    position : fixed;
+    top : 0;
+    left : 100px; 
+    background-color : coral;
+    z-index : 1;
+}
+/* inital position (static) relative + scrolling out of normal flow (fixed) */
+.box-4 {
+    position : sticky;
+    top : 100px;
+    background-color : gold;
+    z-index : -1;
+}
+/* child absolute, parent relative  */
+.box-5 {
+    position : relative;
+    width: 600px;
+    height: 600px;
+    background : coral;
+    z-index : 1;
+}
+.box-6 {
+    position : absolute;
+    bottom : 0px;
+    right : 0px;
+    background-color : gold;
+    z-index : 2;
+}

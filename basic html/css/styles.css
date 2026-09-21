@@ -1,0 +1,15 @@
+     .home {
+            background-color: rgba(216, 138, 36, 0.786);
+        }
+        .about {
+            background-color: rgba(73, 219, 41, 0.727);
+        }
+        .contact {
+            background-color: rgba(121, 121, 213, 0.738);
+        }
+        .text-size {
+            font-size: 60px;
+        }
+        #text-size-1, .text-size-1, a {
+            font-size: 5px;
+        } 

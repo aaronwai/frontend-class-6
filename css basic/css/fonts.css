@@ -1,0 +1,30 @@
+* {
+    margin :0;
+    padding : 0;
+    line-height : 1.5;
+   
+    
+}
+a {
+    text-decoration : none;
+}
+h2 {
+    /* font */
+    font-size : x-large;
+    /* weight : 100-900 */
+    font-weight : 300;
+    /* style : normal, italic */
+    font-style : italic;
+    /* variant : normal, small-caps, set a smaller size of uppercase */
+    font-variant :small-caps;
+    /* font shorthand */
+    font: italic small-caps 300 26px Arial;
+    /* text */
+    text-transform : capitalize;
+    text-indent: 20px;
+    letter-spacing : 2px;
+    word-spacing : 5px;
+    text-align : center;
+    text-decoration :line-through;
+    text-shadow : 2px 2px 4px red;
+}

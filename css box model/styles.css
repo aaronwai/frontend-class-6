@@ -1,0 +1,38 @@
+.box {
+    background-color : darkblue;
+    color : white;
+    padding : 20px;
+    /* border : 3px solid green; */
+    margin : 20px;
+}
+/* text overflow if container size is smaller than content */
+.box-1 {
+    width : 200px;
+    height : 100px;
+/* overflow */
+/* no overflow */
+/* overflow : hidden; */
+
+/* overflow x */
+/* overflow-x : scroll; */
+overflow : scroll;
+border : none;
+border-top : solid blue 4px;
+border-bottom : solid #ff0000 4px;
+}
+.box-2 {
+    width : 50%;
+    border-style : dashed;
+    border-color : green;
+    /* border-radius : 100px; */
+    border-radius : 100%;
+}
+.box-2 p {
+    width : 50%;
+}
+.box-3 {
+    /* max-width:800px; */
+    min-width : 500px;
+    border-top-left-radius : 100px;
+    border-bottom-right-radius : 100px;
+}

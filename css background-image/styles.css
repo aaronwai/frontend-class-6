@@ -1,0 +1,33 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+.hero {
+    /* height : 100vh; */
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    padding : 0 20px;
+    /* a. background color only */
+    /* background-color : coral; */
+
+    /* b. background image only */
+    /* background-image : url(./hero.jpg);
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat; */
+    /* c. background image with pattern */
+     /* background-image : url(./hero.jpg);
+    background-size :auto;
+    background-position : center;
+    background-repeat : repeat;
+    background-attachment :scroll; */
+    /* extend the image for long text scroll bar */
+ min-height : 100vh;
+ /* d. shorthand color , url, repeat,position/size fixed */
+ /* background : red url(./hero.jpg) no-repeat center/cover fixed; */
+ /* color gradient */
+ background : linear-gradient(to bottom right , red 10%,  blue 20%, green);
+    color : white;
+}

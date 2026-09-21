@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    background-color : rgb(39,38,75);
+    /* forgot to add the fonts */
+     font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width : 1100px;
+    width : 90%;
+    background-color : rgb(248,250,254);
+    margin : 20vh auto 0;
+    border-radius : 10px;
+    height : 800px;
+    padding : 75px 50px;
+}
+
+.price-plan {
+    display : flex;
+    justify-content : space-between;
+}
+article {
+    position : relative;
+    width : 30%;
+    border-radius : 5px;
+    box-shadow : 0 2px 1px 1px rgba(0,0,0,0.1);
+    padding : 20px;
+    text-align : center;
+    background-color : #fff;
+}
+
+h2 {
+    padding : 12px;
+    text-transform : uppercase;
+    font-size : large;
+}
+.free h2 {
+    background-color : rgb(248,250,254);
+}
+
+.pro h2 {
+    background : linear-gradient(to right, lightblue, purple);
+    color : white;
+}
+
+.enterprise h2 {
+    background : linear-gradient(to right,hotpink, orange);
+    color : white;
+}
+
+.price  {
+    margin : 65px 0 30px;
+    font-size : 34px;
+    letter-spacing : 2px;
+    font-weight : bold;
+}
+
+sup {
+    font-size : 15px;
+
+}
+span {
+    font-size : 15px;
+    letter-spacing : 1px;
+}
+
+p.price__title {
+    text-transform : uppercase;
+    font-weight : 900;
+    font-size : 14px;
+    margin : 26px 0;
+}
+.price__info {
+    font-size : 12px;
+    letter-spacing : 1px;
+    font-weight : 600;
+
+}
+.price__info::first-letter {
+    text-transform : uppercase;
+    
+}
+a, .pro a:hover {
+    margin : 50px 0;
+    display : block;
+    border : 1px solid #222;
+    padding : 16px 0;
+    border-radius : 5px;
+    text-align : center;
+    text-decoration : none;
+    color : #222;
+    text-transform : uppercase;
+    font-weight : 800;
+    background-color : #fff;
+}
+a:hover, .pro a {
+    color : #fff;
+    background-color : #000;
+}
+ul {
+    list-style : none;
+    text-align : left;
+}
+li {
+    padding-bottom : 8px;
+    text-transform : capitalize;
+    
+}
+.fa-check {
+    color : green;
+    margin-right : 5px;
+}
+.promo {
+    position : absolute;
+    text-align : center;
+    font-size : 14px;
+    background-color : orange;
+    border-radius : 10px;
+    padding : 3px 8px;
+    top : -10px;
+    left : 50%;
+    transform : translateX(-50%);
+}
+/* media query */
+@media (max-width : 765px) {
+    main {
+        height : auto;
+        width : 90%;
+        margin : 0 auto;
+    }
+    article {
+        width : 100%;
+        margin : 30px 0;
+    }
+    .price-plan {
+        display : flex;
+        flex-direction : column;
+    }
+
+}

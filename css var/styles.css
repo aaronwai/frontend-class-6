@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* define global variables */
+:root {
+    --primary-color : rgb(217, 95, 95);
+    --secondary-color : #dc9c6c;
+    --tertiary-color : #bef3be;
+    --shadow-opacity : 0.8;
+    --container-width: 500px;
+    --container-width-large:1100px;
+    --font-primary : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-secondary : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body {
+    font-family :var(--font-secondary);
+    background-color : var(--primary-color);
+}
+.container {
+    display : flex;
+    max-width : var(--container-width);
+    margin : 30px auto;
+    gap : 20px;
+}
+.container-lg {
+    max-width : var(--container-width-large);
+}
+.box {
+    flex : 1;
+    padding : 20px;
+    border-radius : 10px;
+    box-shadow : 0 0 10px rgba(0,0,0, var(--shadow-opacity));
+}
+.box-1 {
+    background : var(--primary-color);
+}
+.box-2 {
+    background : var(--secondary-color);
+}
+.box-3 {
+    background : var(--tertiary-color);
+}

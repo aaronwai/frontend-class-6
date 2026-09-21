@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- audio method 1-->
+    <audio src="./audio/song1.mp3" controls type="audio/mp3"></audio>
+<!-- audio method 2 fallback -->
+    <audio controls>
+        <source src="./audio/song1.mp3" type="audio/mp3">
+        <source src="./audio/song1.ogg" type="audio/ogg">
+        <p>your browser does not support audio</p>
+    </audio>
+    <!-- audio autoplay -->
+   <audio src="./audio/song1.mp3" controls type="audio/mp3"  loop></audio> 
+    <!-- video -->
+    <video src="./video/video1.mov" controls></video>
+    <!-- iframe -->
+    <iframe src="./about.html" frameborder="10"></iframe>
+    <iframe src="./invoice.pdf" frameborder="1"></iframe> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12563.093020829307!2d114.19653366242024!3d22.433994023065658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2shk!4v1788322443410!5m2!1szh-TW!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<!-- iamge map -->
+    <img src="./computer.jpg" alt="map" usemap="#image-map">
+    <map name="image-map">
+        <area shape="rect" coords="34,44,270,350", href="about.html" alt="computer">
+    </map>
+
+
+</body>
+</html>

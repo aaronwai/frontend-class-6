@@ -1,0 +1,150 @@
+https://wordmark.it/
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Combo&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+.combo-regular {
+  font-family: "Combo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+<i class="fa-brands fa-facebook" ></i>
+<i class="fa-brands fa-threads"></i>
+<i class="fa-brands fa-x-twitter"></i>
+<i class="fa-solid fa-wallet"></i>
+<i class="fa-solid fa-tree"></i>
+ <i class="fa-solid fa-socks"></i>
+ ======================================
+ {
+  "bright-fern": {
+   --clr-primary-0: #f1f8ec,
+    --clr-primary-1: #e2f1da,
+   --clr-primary-2: #c6e4b4,
+    --clr-primary-3: #a9d68f,
+    --clr-primary-4: #8cc969,
+    --clr-primary-5: #70bb44,
+   --clr-primary-6: #599636,
+   --clr-primary-7: #437029,
+    --clr-primary-8: #2d4b1b,
+    --clr-primary-9: #16250e,
+  --clr-primary-10: #101a09
+  }
+}

@@ -1,0 +1,121 @@
+/* universal selector */
+* {
+    word-spacing : 3px;
+    margin : 0;
+    padding : 0;
+}
+/* element selector */
+h1 {
+    color : green;
+}
+p {color : green}
+/* element direct child */
+ div > h2 {
+    color : gold;
+}
+/* element select all child */
+div {
+    color : purple;
+}
+/* id selector, id is higher order than h1  */
+#heading {
+    color : blue;
+}
+/* id selector */
+#unique-box {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom : 10px;
+}
+/* class selector */
+.box {
+    /* background-color : #ccaabb; */
+    /* if color code is same double digit, we can use short hand  */
+    background-color : #cab; 
+}
+.simply {
+    color : red;
+}
+/* box direct child class */
+.box > .child {
+    color : pink;
+}
+.inner-box {
+    border: 1px solid #ccc;
+    padding : 5px;
+    margin : 5px 0;
+}
+/* multiple class selector and */
+.inner-box.first-box {
+    color : yellow;
+}
+/* multiple element selector or */
+h4,h5 {
+    color : orange;
+}
+/* multiple class selector or */
+.multiple1, .multiple2 {
+    color : white;
+}
+/* multiple1 is parent, grand-parent of multiple2 */
+.multiple1 .multiple2 {
+    color : red;
+}
+/* descendant selector */
+/* element */
+ul li {color : peru;}
+/* element+class */
+ul.list li.highlight {
+    color : red;
+}
+ul.list > li {
+    list-style-type : square;
+    margin-left : 20px;
+}
+/* attribute selector */
+input[type="text"] {
+    border : 2px solid #007bff;
+    padding: 5px;
+}
+input[placeholder="password"] {
+    padding: 20px;
+}
+div[role="button"] {
+    border : 2px solid red;
+    background-color : #007bff;
+    padding : 5px;
+    width : 50px;
+}
+div[class="button"] {
+    background-color : green; 
+}
+/* sibling selector */
+/* element direct sibling */
+div + a {
+    margin-left  : 30px;
+    color : green;
+}
+/* class direct sibling */
+.button + .direct-class-sibling:hover {
+    border: 1px solid yellow;
+   padding : 40px;
+}
+/* pseudo class selector */
+a.pseudo-class-link:hover {
+    color : red;
+}
+input[placeholder="password"]:focus {
+   border : 20px solid green;
+}
+/* pseduo-element */
+p::first-line {
+    
+    background : yellow;
+}
+p::first-letter {
+    color : purple;
+}
+/* general silbing */
+h4 ~ div {
+    background-color : green;
+}

@@ -1,0 +1,27 @@
+.container {
+    display : flex;
+    justify-content : space-around;
+    gap : 10px;
+    margin-top : 50px;
+}
+.box {
+    width : 200px;
+    height : 200px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border : 1px solid black;
+    border-radius : 10px;
+}
+.box-1 {
+    /* x, y, blur, spread(growth) */
+    box-shadow: 40px 40px 50px 2px #000;
+}
+.box-2 {
+    /* x, y, blur, spread(growth) */
+    box-shadow: 40px 40px 50px 2px rgba(255, 0, 0, 0.9);
+}
+.box-3 {
+    /* x, y, blur, spread(growth) */
+    box-shadow: 40px 40px 50px 2px rgba(0,0,0,0.5), -5px 10px 5px red, 5px -10px 5px blue;
+}

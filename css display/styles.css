@@ -1,0 +1,27 @@
+* {
+    border : 1px solid red;
+}
+.none-el {
+    display : none;
+}
+.hidden-el {
+    visibility : hidden;
+}
+ p {
+    display : inline;
+    padding : 100px 0;
+    margin : 100px 0;
+}
+/*
+a {
+    display : block;
+} */
+ a {
+    display : inline-block;
+    background : lightblue;
+    border : 1px solid blue;
+    padding : 10px;
+    margin : 20px 10px;
+    width : 200px;
+    height: 100px;
+ }

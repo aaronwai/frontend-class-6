@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>css selector</title>
+</head>
+<body>
+    <!-- id selector -->
+    <h1 id="heading">ID selector to blue</h1>
+    <div class="box" id="unique-box">
+        <h2>element direct child</h2>
+        <h3 class="child">class direct child</h3>
+        <span><h2>element inside span, not direct child</h2></span>
+        <span><h3 class="child">class not direct child</h3></span>
+        <!-- element selector : select P -->
+        <p>P element selector change color to green</p>
+        <p class="simply">simply class selector to red same p class is higher order then element</p>
+        <!-- class selectors -->
+        <div class="inner-box first-box">multiple classes</div>
+          <div class="inner-box">Inner box 2</div>
+           <h4>h4 element multiple selection</h4> 
+           <h5>h5 element multiple selection</h5>
+           <div class="multiple1"> mutiple class selector 
+             <div> <p class="multiple2">P mutiple class selector 1</p> </div>
+            </div>
+          
+    </div>
+<!-- list -->
+<ul class="list">
+    <li>ul li - element descendant</li>
+    <ul>
+        <li>ul li - element descendant all levels</li>
+        <li class="highlight">
+            ul.list li.highlight - class descendant all level </li>
+    </ul>
+    <li class="highlight">ul.list  li.highlight - class descendant</li></ul>
+<!-- attribute selector -->
+<input type="text" placeholder="attributor selector" />
+<input type="password" placeholder="password" />
+<div class="button" type="submit" role="button">submit</div>
+<a href="#" class="direct-class-sibling">direct sibling a</a>
+<a href="#" class="pseudo-class-link">pseudo class selector</a>
+<p>pseudo class selector Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque voluptatum dolores fuga culpa cupiditate nesciunt, praesentium animi voluptates earum eaque.</p>
+</body>
+</html>

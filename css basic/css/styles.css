@@ -1,0 +1,77 @@
+/* multiple element selector */
+/* step 1 */
+html,body {
+     font-family: "Noto Serif HK", 'Arial Narrow', Arial, sans-serif;
+     background-color : #333;
+}
+/* step 2, reset all the element's default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* step 3 : pick up the most general elements */
+main {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+     background-color : #d4e3e6;
+     max-width: 750px;
+     margin: 0 auto;
+     padding : 20px 45px;
+}
+article {
+    background-color : #fff;
+    /* padding-top : 10px;
+    padding-bottom : 30px;
+    padding-left:10px; 
+    padding-right:1px;  */
+    padding : 10px 1px 30px 10px;
+    margin : 20px 0;
+    border-radius : 10px;
+    box-shadow : 0 4px 6px rgba(0,0,0,0.1);
+}
+h2 {
+    padding : 0 0 5px;
+    margin : 0 0 20px;
+    font-size : 26px;
+}
+
+p {
+    width : 75%;
+    color : black;
+    margin-bottom : 30px;
+    font-size : 20px;
+}
+a {color : white;
+    font-weight : 700;
+    font-size : 20px;
+    text-decoration: none;
+    padding : 5px 10px;
+    border-radius : 5px;
+}
+a:hover {
+    opacity : 0.7;
+}
+.sporty  {
+    color : red;
+    background : #fff url('../images/sporty.png') no-repeat center right/200px;
+}
+
+.sporty a {
+    background-color : red;
+}
+.casual {
+    color : blue;
+     background : #fff url('../images/causal.png') no-repeat center right/200px;
+}
+.casual a {
+    background-color : blue;
+}   
+.formal {
+    color : brown;
+     background : #fff url('../images/business.png') no-repeat center right/200px;
+}
+.formal a {
+    background-color : brown;   
+}
