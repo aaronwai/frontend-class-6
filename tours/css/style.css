@@ -251,8 +251,75 @@ min-height : 40vh;
          color : var(--clr-primary-8);
  } 
 }
+
+/* ========  */
+/* tours  */
+/* ======  */
+.tours {
+    background-color : var(--clr-grey-9);
+    /* gap : 1rem; */
+    .section-center.tours-center {
+        display : grid;
+        grid-template-columns : 1fr;
+        gap : 2rem;
+    }
+    .tour-card {
+        box-shadow : var(--dark-shadow);
+        /* width : 90vw; */
+        margin : 0 auto;
+        transition : var(--transition);
+    }
+    .tour-card:hover {
+        transform : scale(1.02);
+    }
+    .tour-img-container {
+        position : relative;
+        height : 33vh;
+        img {
+            width : 100%;
+            height : 100%;
+        }
+        p {
+            position : absolute;
+            bottom : 0;
+            right : 0;
+            font-size : 1rem;
+            color : var(--clr-white);
+            text-transform : capitalize;
+            background : var(--clr-primary-8);
+        }
+    }
+    .tour-info {
+        padding : 0 2rem;
+        height : 15vh;
+        display : flex;
+        flex-direction : column;
+        justify-content : space-evenly;
+        .tour-title h4 {
+            font-size : 1.5rem;
+            color : var(--clr-primary-8);
+        }
+        p {
+            font-size : 1rem;
+            color : var(--clr-primary-6);
+        }
+    }
+    .tour-footer {
+        display : flex;
+        justify-content : space-between;
+        align-items : center;
+        padding : 1rem 2rem;
+        p {
+            text-transform : capitalize;
+            font-size : 1rem;
+            i {
+                margin-right : 0.5rem;
+            }
+        }
+    }
+}
 /* ============ */
-/* mideium screen  */
+/* medium screen  */
 /* ================  */
 @media (min-width: 800px) {
    
@@ -372,10 +439,32 @@ display : none;
     height  : 10rem;
 }
 .section-center.services-center {
-    grid-template-columns : 1fr 1fr 1fr;}
+    grid-template-columns : 1fr 1fr 1fr;} 
+    /* footer  */
+   .section.footer {
+    .footer-list, .footer-icons {
+        margin : 2rem 0;
+        gap :  3rem;
+    }
+    .footer-list  a {
+        font-size : 2rem;
+       
+    }
+     .footer-icons  a {
+        font-size : 2.2rem;
+ } 
+ .copyright {
+    font-size : 1.5rem;
+ }
+} 
+.tours .section-center.tours-center {
+     grid-template-columns : 1fr 1fr;
+     margin: 0 auto;
+  
+    }
 }
 
-@media (min-width : 1100px) {
+@media (min-width : 1100px)  {
    .about-center .about-img {
     position : relative;
     width : 35vw;
@@ -425,5 +514,9 @@ padding : 0 2.5rem;
      justify-content : space-between;
     width : 80%;
 }
-
+.tours .section-center.tours-center {
+     grid-template-columns : 1fr 1fr 1fr;
+    max-width : 1100px;
+   margin : 0 auto;
+    }
 }
