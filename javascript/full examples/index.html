@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./notes.png" alt=""/>
+            <h1>Shopping List</h1>
+        </header>
+        <form id="item-form">
+            <div class="form-control">
+                <input class="form-input" type="text" id="item-input" placeholder="Enter an item" name="item"/>
+                <div class="form-control">
+                    <button class="btn" type="submit">
+                        <i class="fa-solid fa-plus"></i> Add Item
+                    </button>
+                </div>
+            </div>
+        </form>
+        <div class="filter">
+            <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items"/>
+        </div>
+        <ul class="items" id="item-list">
+            <li>Apple
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>Bannana
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>Orange
+                <button class="remove-item btn-link text-red">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li> 
+        </ul>
+            <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+    <script src="./script1.js"></script>
+</body>
+</html>
