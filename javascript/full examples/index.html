@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="./style.css"/>
     <title>Document</title>
 </head>
+<!-- comment demo -->
 <body>
     <div class="container">
-        <header>
+        <!-- header -->
+<header>
             <img src="./notes.png" alt=""/>
-            <h1>Shopping List</h1>
+            <h1 id="app-title">Shopping List</h1>
         </header>
         <form id="item-form">
             <div class="form-control">
@@ -27,17 +29,17 @@
             <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items"/>
         </div>
         <ul class="items" id="item-list">
-            <li>Apple
+            <li class="item">Apple
                 <button class="remove-item btn-link text-red">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </li>
-            <li>Bannana
+            <li class="item">Bannana
                 <button class="remove-item btn-link text-red">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </li>
-            <li>Orange
+            <li class="item">Orange
                 <button class="remove-item btn-link text-red">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
@@ -45,6 +47,7 @@
         </ul>
             <button id="clear" class="btn-clear">Clear All</button>
     </div>
-    <script src="./script1.js"></script>
+    
+    <script src="./script7.js"></script>
 </body>
 </html>
