@@ -103,3 +103,13 @@ img {
     height : 30px;
     background-color : #444;
 }
+
+.big {
+    font-size : 40px;
+}
+.medium {
+    font-size : 10px;
+}
+.hidden {
+    display : none;
+}
