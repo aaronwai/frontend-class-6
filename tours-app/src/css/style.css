@@ -422,7 +422,7 @@ margin-right : 3rem;
 display : none;
     }
 .hero {
-    background : linear-gradient(var(--clr-grey-6), var(--clr-grey-7)), url(../images/Beach_Theme.png) center/cover no-repeat;
+    background : linear-gradient(var(--clr-grey-6), var(--clr-grey-7)), url(../assets/Beach_Theme.png) center/cover no-repeat;
     min-height : 100vh;
 }
 
