@@ -8,14 +8,14 @@ import Tours from './components/Tours';
 function App() {
  
 return (
-  <>
+<>
   <Navbar />
   <Hero />
   <About /> 
-   <Services />
-   <Tours />
-    <Footer />
-    </>
+  <Services />
+  <Tours />
+  <Footer />
+</>
 )
   
 }

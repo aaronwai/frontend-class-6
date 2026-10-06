@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width : 960px;
+    margin : 30px auto;
+}
+.box {
+    background: #f4f4f4;
+    border : 1px solid #333;
+    padding : 20px;
+    margin-bottom : 15px;
+}
+#box-2 {
+    float : left;
+    width : 68%;
+}
+#box-3 {
+    float : right;
+    width : 30%;
+}
+.clr {
+    clear : both;
+}

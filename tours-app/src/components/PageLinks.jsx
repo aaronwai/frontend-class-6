@@ -1,5 +1,6 @@
-import {pageLinks} from "../../data";
-const PageLinks = ({groupClass}) => {
+import { pageLinks } from '../../data';
+
+const PageLinks = ({ groupClass }) => {
   return (
     <ul className={groupClass}>
         {pageLinks.map((link) => {
@@ -11,4 +12,4 @@ const PageLinks = ({groupClass}) => {
   )
 }
 
-export default PageLinks
+export default PageLinks;
