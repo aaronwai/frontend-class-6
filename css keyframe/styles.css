@@ -1,0 +1,37 @@
+.container {
+    max-width : 1100px;
+    margin : 30px auto;
+}
+.box {
+    width : 100px;
+    height : 100px;
+    background : coral;
+    animation : animate1 2s;
+    animation-fill-mode : forwards;
+    animation-iteration-count : 10;
+    animation-timing-function : ease-out;
+    position : absolute;
+
+}
+@keyframes animate1 {
+    0% {
+        width : 100px;
+        background-color : coral;
+        top : 0;
+    }
+    30% {
+        width : 300px;
+        background-color : lightgreen;
+        top : 30vh;
+    }
+    70% {
+        width : 500px;
+        background-color : yellow;
+        top : 50vh;
+    }
+    to {
+        width : 500px;
+        background-color : lightblue;
+        top: 70vh;
+    }
+}
