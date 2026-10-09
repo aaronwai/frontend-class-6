@@ -1,0 +1,39 @@
+ul li:first-child {
+    background-color : lightblue;
+}
+ul li:last-child {
+    background-color : lightcoral;
+}
+ul li:nth-child(odd) {
+    background-color : lightgreen;
+}
+ul li:nth-child(even) {
+    background-color : lightyellow;
+}
+ul li:nth-child(4) {
+    background-color : red;
+}
+ul li:nth-child(3n-1) {
+    background-color : blue;
+}
+ul li:only-child {
+    background-color : orange;
+}
+ul li:first-of-type {
+    font-size : 40px;
+}
+ul li:last-of-type {
+    font-size : 40px;
+}
+ul li:nth-of-type(6) {
+    font-size : 40px;
+}
+p:nth-of-type(2) {
+    font-size : 40px;
+}
+/* pseudo class + element */
+.container > p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 2rem;
+    color : red;
+}
